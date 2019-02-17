@@ -1,0 +1,1328 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="MarketStrats - Your go-to site for learning the basics of marketing">
+	<meta name="keywords" content="Marketing, Natick High School, Business Marketing, Natick Business">
+	<meta name="author" content="Natanel Pink">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MarketStrats</title>
+	
+	<!-- Reset.css --> 
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	
+	<!-- link to mobile css -->
+	<link href="css/homestyle-mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+	
+	<!-- link to regular css --> 
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px)">
+		
+	<!-- Slideshow CSS 
+	<link href="css/slideshow.css" rel="stylesheet" type="text/css">
+	<link href="js/slideshow.js" rel="stylesheet" type="text/js"> -->
+
+	
+	<!-- Put these into the <head> (responsive nav) 
+	<link rel="stylesheet" href="css/responsive-nav.css">
+	<script src="js/responsive-nav.js"></script> -->
+	
+	<!-- Favicon code --> 
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	
+	<!-- Font code -->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+	<script src="js/slippry.min.js"></script>
+	<link rel="stylesheet" href="css/slippry.css" />
+	
+	<!-- animsition.css -->
+	<!-- <link rel="stylesheet" href="css/animsition.min.css">
+	<!-- jQuery -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+	<!-- animsition.js -->
+	<!-- <script src="js/animsition.min.js"></script> -->
+	
+
+	
+	<style>
+		
+		/*.container-div {
+			
+		}
+		
+		.navbar-right {
+			float: none!important;
+			clear: both;
+		}
+		
+		.navbar-toggle {
+			display: block;
+		}
+		
+		.navbar-collapse {
+			border-top: 1px solid transparent;
+			box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+		}
+		
+		.navbar-fixed-top
+		
+		.navbar-header-wp {
+			position: relative;
+		}
+		
+		body {
+			background-color: #333;
+			font-size: 14px;
+			line-height: 1.6;
+			font-weight: 500;
+			font-family: Open Sans;
+			color: #9b9b9b;
+		}
+		
+		h1, h2, h3, h4, h5, h6 {
+			color: #fff;
+			font-weight: 500;
+		}
+		
+		hr {
+			margin: 15px 0 30px;
+			border-color: #333;
+		}
+		
+		a {
+			color:#48e0a4;
+			text-decoration: none;
+			-webkit-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+			outline: 0;
+		}
+		
+		a:focus, a:hover {
+			color: #111;
+			text-decoration: none;
+			outline: 0;
+		}
+		
+		#logo-index h1 a {
+			background-repeat:no-repeat;
+			background-position: 50% 50%;
+		}
+		
+		header {
+			background-color: #111;
+			width: 100%;
+			position: fixed;
+			left: 0;
+			top: 0;
+			z-index: 9999;
+		}
+		
+		#logo a, #logo-index h1 a {
+			background-color: #fff;
+			padding: 25px;
+			box-sizing: content-box;
+			display: block;
+		}
+		
+		#logo-index h1 {
+			margin 0;
+			padding: 0;
+		}
+		*/
+		
+		
+		/*
+		
+		#logo-index h1 a {
+			width: 190px;
+			height: 44px;
+			background-image: url(images/MS-MarketStrats-Logo.png);
+			background-size: 190px 73px;
+			text-indent: -9999px;
+		}
+		
+		
+		
+		
+		
+		/*
+		.navbar-nav li a{
+			font-size: 15px;
+			text-transform: uppercase;
+			color: #fff;
+			padding: 6px 15px 15px; 
+			font-weight: 700;
+		}
+		
+		.navbar-nav li:last-child a{
+			padding-right:0;
+		}
+		
+		.navbar-nav li a:hover{
+			color: #48e0a4;
+			text-decoration: none;
+		}
+		
+		.navbar-nav li.active>a, .navbar-nav li.active>a:focus, .navbar-nav li.active>a:hover, .navbar-nav li.open>a, .navbar-nav li.open>a:focu, .navbar-nav li.open>a:hover{
+			background-color: transparent;
+			color: #48e0a4;
+		}
+		
+		.navbar-nav li>.dropdown-menu {
+			padding: 20px 25px;
+			margin-top: -1px;
+			margin-left: -1px;
+			left: 0;
+			background-color: #181818;
+			min-width: 210px;
+			border-radius: 0px;
+		}
+		
+		.navbar-nav li>.dropdown-menu a {
+			padding: 10px 0px;
+			color: #717171;
+			font-size: 13px;
+			text-transform: none;
+		}
+		
+		.navbar-nav>.open>a, .navbar-nav>.open>a:focus, .navbar-nav>.open>a:hover{
+			background-color: transparent;
+		}@media (min-width:1200px){.navbar-nav>li.mega>.dropdown-menu{width:1170px}}@media (min-width:992px){.dropdown:hover .dropdown-menu{display:block}.navbar-nav>li.mega>.dropdown-menu{width:970px}}@media (min-width:768px){.navbar-nav>li.mega>.dropdown-menu{width:750px}}footer{background:#111}
+		
+		
+		
+		
+		.dropbtn {
+			background-color: #4CAF50;
+			color: white;
+			padding: 16px;
+			font-size: 16px;
+			border: none;
+		}
+
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+
+		.dropdown-content a:hover {background-color: #ddd;}
+
+		.dropdown:hover .dropdown-content {display: block;}
+
+		.dropdown:hover .dropbtn {background-color: #3e8e41;} */
+		
+		/* html {
+			scroll-behavior: smooth;
+		}
+		
+		
+		.navbar {
+			overflow: hidden;
+			background-color: #111;
+			font-family: Quicksand;
+			text-transform: uppercase;
+			width: 100%;
+			font-weight:500;
+		}
+		
+
+		.navbar a {
+			float: right;
+			font-size: 14px;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			padding-top: 16px;
+			text-decoration: none;
+			padding-top: 42px;
+		}
+
+		.dropdown {
+			float: right;
+			overflow: hidden;
+		}
+
+		.dropdown .dropbtn {
+			font-size: 14px;    
+			border: none;
+			outline: none;
+			color: white;
+			padding: 14px 16px;
+			background-color: inherit;
+			font-family: inherit;
+			margin: 0;
+			font-weight: 500;
+			padding-top: 40px;
+
+		}
+
+		.navbar a:hover, .dropdown:hover .dropbtn {
+			background-color: transparent;
+			color: #48e0a4;
+		}
+		
+		.navbar a:active, .dropdown:active .dropbtn {
+			background-color: transparent;
+			color: #48e0a4;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #181818;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 10;
+			padding-top: 12px;
+			padding-bottom: 12px;
+		}
+
+		.dropdown-content a {
+			float: none;
+			color: #8F8F8F;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+			text-transform: none;
+			font-size: 13px;
+		}
+
+		.dropdown-content a:hover {
+			background-color: transparent;
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+		
+		
+		
+		body {
+			background-color: #222;
+			font-size: 14px;
+			/* line-height: 1.6; */
+			/*font-weight: 500;
+			font-family: Open Sans;
+			color: #9b9b9b;
+			font-family: Quicksand;
+		}
+		
+		body h1 {
+			font-family: Quicksand;
+			text-align: center;
+			padding-bottom: 5px; 
+			font-size: 36px;
+			color: #fff;
+			text-transform: uppercase;
+			font-weight: 500;
+		} 
+		
+		body h2 {
+			font-family: Quicksand;
+			text-align: center;
+			margin: 0 0 30px;
+			font-size: 21px;
+			color: #999;
+			text-transform: none;
+			font-weight: 500;
+			display: block;
+		} 
+		
+		
+		
+		h1, h2, h3, h4, h5, h6 {
+			color: #fff;
+			font-weight: 500;
+		}
+		
+		hr {
+			margin: 15px 0 30px;
+			border-color: #333;
+		}
+		
+		
+		
+		#logo-index h1 a {
+			background-repeat:no-repeat;
+			background-position: 50% 50%;
+		}
+		
+		#logo a, #logo-index h1 a {
+			background-color: #333;
+			padding: 25px;
+			box-sizing: content-box;
+			display: block;
+		}
+		
+		#logo-index h1 {
+			margin 0;
+			padding: 0;
+		}
+		
+		#logo-index h1 a {
+			width: 190px;
+			height: 44px;
+			background-image: url(images/MS-MarketStrats-Logo.png);
+			background-size: 195px 75px;
+			text-indent: -9999px;
+			float: left;
+			margin-left: 130px;
+		}
+		
+		p {
+			color: #fff;
+			font-family: Quicksand;
+		}
+		
+		a {
+			-webkit-transition:all .2s ease;transition:all .2s ease;outline:0;
+			color: #48E0A4;
+			text-decoration: none;
+		}
+		
+		.nav-spacing {
+			margin-right: 120px;
+		}
+		
+		hr {
+		width: 3.5%;
+		margin-left: auto;
+		margin-right: auto;
+		height: 3px;
+		border-color: #999;
+		background-color: #fff;
+		border-radius: 20px 20px 20px 20px;
+		}
+		
+		.content1 .content2 hr {
+			margin-top: 40px;
+		}
+		
+		.cs-hr hr {
+			float: left;
+			/* margin-left: 120px; */
+		} 
+		/*
+		.casestudies-title {
+			float: center!important;
+			/* margin-left: 140px; */
+		/*	font-size: 30px;
+			color: #fff;
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+		
+		.content1 {
+			background-color: #222;
+		}
+		
+		.content1 p {
+			text-align: center;
+			padding: 0 10%!important;
+			font-size: 18px;
+			color: #999;
+		}
+		
+		.first-paragraph {
+			margin-bottom: 45px;
+		}
+
+		.topic-box {
+			text-align: center;
+			margin-bottom: 25px;
+			padding: 30px 30px 5px;
+			background-color: #161616;
+			position: 50% 50%;
+			
+		}
+		
+		.topic-box h3 {
+			font-size: 21px;
+		}
+		
+		.topic-box p {
+			font-size: 14px;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			line-height: 1.42857143;
+		}
+		
+		.topic-box a img {
+			width: 20px;
+			height: 20px;
+			top: 15px;
+			right: 15px;
+			position: absolute;
+			font-size: 20px;
+			color: #555;
+			line-height: 1;
+		}
+		
+		.box_service_2{position:relative;padding-left:50px}.box_service_2 i{font-size:36px;position:absolute;left:0;top:0;color:#f53e7d}
+		
+		.row {
+			/* margin-right:-15px; */
+		/*	margin-left:10px;
+			float: center;
+			
+		}
+		
+		.row:after,.row:before {
+			display:table;
+			content:" ";
+		}
+		
+		.row:after {
+			clear:both;
+		} 
+		
+		.col-sm-4 {
+			position:relative;
+			min-height:1px;
+			padding-right:15px;
+			padding-left:15px;
+		}
+		
+		
+		@media (min-width:768px){.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9{float:left}
+			
+		.col-sm-4 {
+			width:30%;
+		}
+			
+		.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px;}}
+			
+		.topic-box img {
+			width: auto;
+			height: 100px;
+			margin-bottom: 20px;
+		}
+			
+		.center-text {
+			text-align: center;
+			
+		}
+			
+		.home-button-1 {
+			min-width:160px;
+			margin-top:35px;
+		}
+			
+		.outline-button-1,a.outline-button-1 {
+			border:2px solid #fff;
+			font-family:inherit;
+			font-size:16px;
+			color:#fff;
+			cursor:pointer;
+			padding:5px 20px;
+			display:inline-block;
+			outline:0;
+			-webkit-transition:all .3s;
+			-moz-transition:all .3s;
+			transition:all .3s;
+			-webkit-border-radius:3px;
+			-moz-border-radius:3px;
+			border-radius:3px;text-align:center;
+		}
+			
+		.outline-button-1:hover,a.outline-button-1:hover {
+			background:#333;
+			color:#fff;
+			border:2px solid #333;
+		}
+		
+		.home-button-1,.home-button-1.medium,a.home-button-1,a.home-button-1.medium {
+			border:none;
+			display:inline-block;
+			-webkit-transition:all .3s;
+			-moz-transition:all .3s;
+			font-family:inherit;
+			color:#111;
+			background:#48e0a4;
+			cursor:pointer;
+			outline:0;
+		}
+			
+		.home-button-1,a.home-button-1 {
+			font-size:16px;
+			padding:7px 20px;
+			transition:all .3s;
+			-webkit-border-radius:3px;
+			-moz-border-radius:3px;
+			border-radius:3px;
+		}
+			
+		.home-button-1.home,.outline-button-1,a.home-button-1.home,a.outline-button-1 {
+			min-width:120px;
+			margin-top:35px;
+		}
+			
+		.home-button-1.medium, a.home-button-1.medium {
+			padding:10px 20px;
+			font-size:18px;
+			transition:all .3s;
+			-webkit-border-radius:3px;
+			-moz-border-radius:3px;
+			border-radius:3px;
+			font-weight:500
+		}
+		
+		.home-button-1:hover, a.home-button-1:hover {
+			background:#48e0a4;
+			box-shadow:0 0 15px rgba(72,217,217,.6)
+		} */
+		
+		
+			/*
+		.ps-content h1 {
+			text-align: center;
+			margin: 0 0 30px;
+			padding: 0;
+			font-size: 36px;
+			color: #fff;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+			
+		.ps-content p {
+			display: block;
+			text-align: center;
+			margin: 0 0 30px;
+			font-size: 18px;
+			color: #fff;
+			text-transform: none;
+			line-height: 1.42857143;
+		}
+		
+		.content3 {
+			padding-top: 60px;
+			padding-bottom: 45px;
+		}
+			
+		.medium-column {
+			position: relative; 
+			min-height: 1px;
+			padding-left: 15px;
+			padding-right: 15px;
+			float: left;
+			width: 33.333333%;
+		}
+			
+		.small-column {
+			position: relative;
+			min-height: 1px;
+			padding-left: 15px;
+			padding-right: 15px;
+			float: left;
+			width: 33.3333%;
+		}
+			
+		#footer-logo {
+			margin: 12px 0 15px;
+		}
+			
+		.medium-column2 {
+			position: relative;
+			min-height: 1px;
+			padding-left: 15px;
+			padding-right: 15px;
+			float: left;
+			width: 20%;
+		}
+			
+		.medium-column-offset {
+			margin-left: 8.333333%	
+		}
+			
+		.small-column2 {
+			position: relative;
+			min-height: 1px;
+			padding-left: 15px;
+			padding-right: 15px;
+			float: left;
+			width: 25%;
+		}
+			
+		#creator-details ul {
+			list-style: none;
+			margin: 0 0 20px;
+			padding: 0;
+		}
+			
+		#creator-details ul li {
+			margin-bottom: 20px;
+		}
+			
+		/* ul#creator-details li#class,ul#creator-details li#team, ul#creator-details li#name {
+			position:relative;
+			padding-left:30px
+		} */
+		
+		/*
+		#class:before,#team:before,#name:before {
+			font-style:normal;
+			font-weight:400;
+			font-family:ElegantIcons;
+			position:absolute;
+			font-size:20px;
+			left:0;
+			top:-5px;
+			color:#f53e7d;
+		}
+			
+		footer, footer a, footer h3 {
+			color: #fff;	
+		}
+			
+		footer {
+			background-color: #111;
+			font-family: Quicksand;
+			line-height: 1.6;
+		}
+			
+		footer h3 {
+			font-size: 16px;
+			font-weight: 600;
+			padding-bottom: 10px;
+		}
+			
+		footer a:hover {
+			color: #48e0a4;
+		}
+			
+		footer ul {
+			margin: 0;
+			padding: 0 0 20px;
+			list-style: none;
+		}
+		
+		footer, header, nav {
+			display: block;
+		}
+			
+		#cr-footer {
+			padding-bottom: 20px;
+			padding-top: 25px;
+			font-size: 13px;
+			border-top:1px dotted rgba(255,255,255,.3);
+			margin: 0 140px 0;
+		}
+			
+		#cr-footer p {
+			text-align: center!important;
+		}
+			
+		/*#cr-footer hr {
+			width: 96%;
+			margin-left: auto;
+			margin-right: auto;
+			height: 0.25px;
+			border-color: #777;
+			border: dotted 0.5px;
+			/* background-color: #fff; 
+			/* border-radius: 20px 20px 20px 20px; 
+		} */
+			
+		/*	
+		.slide_typo_2 .slide_typo {
+			text-transform: uppercase;	
+		}
+			
+		.button_intro_2 {
+			text-transform: uppercase;	
+		}
+			
+		.slide_typo{white-space:nowrap;font-weight:500;color:#fff;font-size:60px;padding:15px 30px}.slide_typo_2{color:#fff;font-size:21px;white-space:nowrap;background-color:#111;padding:10px 20px}.button_intro_2,a.button_intro_2{border:none;font-style:normal;color:#111!important;background:#48e0a4;cursor:pointer;padding:12px 20px;display:inline-block;outline:0;font-size:13px;text-align:center;-webkit-transition:background .3s!important;-moz-transition:background .3s!important;transition:background .3s!important;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;min-width:110px;font-weight:900}.button_intro_2:hover,a.button_intro_2:hover{background:#fff;color:#111!important}
+		
+		.button_intro_2,a.button_intro_2{padding:5px!important;font-size:10px!important;margin-top:15px!important}
+		*/
+		/*@media only screen and (max-width:480px) {
+			.footer-mobile {
+				visibility: visible;
+			}
+		} */
+		
+		/*.footer-mobile {
+		  display: none;
+		} */
+
+		@media screen and (max-width: 200px) {
+		  .footer-mobile {
+			display: block;
+		  }
+		}
+
+
+		
+
+
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+
+		.dropdown-content a {
+		  float: none;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+
+		@media screen and (max-width: 600px) {
+		  .navbar a:not(:first-child), .dropdown .dropbtn {
+			display: none;
+		  }
+		  .navbar a.icon {
+			float: right;
+			display: block;
+		  }
+		}
+
+		@media screen and (max-width: 600px) {
+		  .navbar.responsive {position: relative;}
+		  .navbar.responsive .icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+		  }
+		  .navbar.responsive a {
+			float: none;
+			display: block;
+			text-align: left;
+		  }
+		  .navbar.responsive .dropdown {float: none;}
+		  .navbar.responsive .dropdown-content {position: relative;}
+		  .navbar.responsive .dropdown .dropbtn {
+			display: block;
+			width: 100%;
+			text-align: left;
+		  }
+		}
+		
+		
+	</style>
+</head>
+
+<body>
+ 
+	 <div class="navbar no-show-on-desktop" id="myNavbar" media="screen and (max-width:480px)">
+	  	<div class="nav-spacing">
+  		   
+			
+			  <div class="dropdown">
+				<button class="dropbtn">Case Studies 
+				  <i class="fa fa-caret-down"></i>
+				  </button>
+				<div class="dropdown-content">
+					<a href="example-1.html">Example 1</a>
+					<a href="example-2.html">Example 2</a>
+					<a href="example-3.html">Example 3</a>
+				</div>
+			  </div> 
+			  
+			  <div class="dropdown">
+				<button class="dropbtn">Marketing Basics 
+				  <i class="fa fa-caret-down"></i>
+				  </button>
+				<div class="dropdown-content">
+					<a href="marketing-mix.html">Marketing Mix</a>
+					<a href="marketing-audits.html">Marketing Audits</a>
+					<a href="porters-five-forces.html">Porter's Five Forces</a>
+					<a href="marketing-corporate-objectives.html">Marketing & Corporate Objectives</a>
+					<a href="market-research.html">Market Research</a>
+					<a href="market-seg-con-profile.html">Market Segmentation & Consumer Profile</a>
+					<a href="sales-forecasting.html">Sales Forecasting</a>
+				</div>
+			  </div> 
+		</div>	
+			  <a href="about.html">About</a>
+			  <a href="index.html">Home</a>
+			  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+			  
+			  
+			  <div id="logo-index">
+	 			<h1><a href="index.html" title="MarketStrats" style="width: 190px; height: 44px; background-image: url(images/MS-MarketStrats-Logo.png); background-size: 195px 75px; text-indent: -9999px; float: left; margin-left: 115px;">MarketStrats</a></h1>
+	 		  </div>
+		</div>
+		
+		<script>
+			function myFunction() {
+				  var x = document.getElementById("myNavbar");
+				  if (x.className === "navbar") {
+					x.className += " responsive";
+				  } else {
+					x.className = "navbar";
+				  }
+				}
+		</script>
+		
+		
+		<div class="navbar show-on-desktop" media="screen and (min-width:480px)">
+	  	<div class="nav-spacing">
+  		   
+  		   <ul>
+	  		   <li><a href="#about">About</a></li>
+			
+			  <div class="dropdown">
+				<li><button class="dropbtn">CASE STUDIES 
+				  <i class="fa fa-caret-down"></i>
+				  </button></li>
+				<div class="dropdown-content">
+					<li><a href="example-1.html">Example 1</a></li>
+					<li><a href="example-2.html">Example 2</a></li>
+					<li><a href="example-3.html">Example 3</a></li>
+				</div>
+			  </div> 
+			  
+			  <div class="dropdown">
+				<li><button class="dropbtn">Marketing Basics 
+				  <i class="fa fa-caret-down"></i>
+				  </button></li>
+				<div class="dropdown-content">
+					<li><a href="marketing-mix.html">Marketing Mix</a></li>
+					<li><a href="marketing-audits.html">Marketing Audits</a></li>
+					<li><a href="porters-five-forces.html">Porter's Five Forces</a></li>
+					<li><a href="marketing-corporate-objectives.html">Marketing & Corporate Objectives</a></li>
+					<li><a href="market-research.html">Market Research</a></li>
+					<li><a href="market-seg-con-profile.html">Market Segmentation & Consumer Profile</a></li>
+					<li><a href="sales-forecasting.html">Sales Forecasting</a></li>
+				</div>
+			  </div> 
+			</ul>
+		</div>	
+		  <ul>
+			  <li><a href="index.html">Home</a></li>			  
+			  
+			  <div id="logo-index">
+	 			<h1><a href="index.html" title="MarketStrat" style="width: 190px; height: 44px; background-image: url(images/MS-MarketStrats-Logo.png); background-size: 195px 75px; text-indent: -9999px; float: left; margin-left: 130px;">MarketStrat</a></h1>
+	 		  </div>
+		  </ul>
+		</div>
+		<!-- code for hero picture/slideshow 
+		<div id="image">
+			<div id="slippry-demo" style="width:100%;height:600px;">
+				<!-- first slide 
+				<div class="ls-slide" data-ls="slidedelay: 5000; transition2d:85;">
+					<img src="images/slide1-2.jpg" class="ls-bg" alt="Slide background">
+					<h3 class="ls-l slide_typo" style="top: 45%; left: 50%;" data-ls="offsetxin:0;durationin:2000;delayin:1000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotatexout:90;transformoriginout:50% bottom 0;">Boost your visibility</h3>
+					<p class="ls-l slide_typo_2" style="top:55%; left:50%;" data-ls="durationin:2000;delayin:1000;easingin:easeOutElastic;">
+						SEO - Email marketing - Strategy
+					</p>
+					<a class="ls-l button_intro_2" style="top:68%; left:50%;white-space: nowrap;" data-ls="durationin:2000;delayin:1400;easingin:easeOutElastic;" href='service-single.html'>Read more</a>
+				</div>
+				<!-- second slide 
+				<div class="ls-slide" data-ls="slidedelay:5000; transition2d:103;">
+					<img src="images/slide2-2.jpg" class="ls-bg" alt="Slide background">
+					<h3 class="ls-l slide_typo" style="top: 45%; left: 50%;" data-ls="offsetxin:0;durationin:2000;delayin:1000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotatexout:90;transformoriginout:50% bottom 0;">Pay Per Click campaigns</h3>
+					<p class="ls-l slide_typo_2" style="top:55%; left:50%;" data-ls="durationin:2000;delayin:1000;easingin:easeOutElastic;">
+						Professional services and options
+					</p>
+					<a class="ls-l button_intro_2" style="top:68%; left:50%;white-space: nowrap;" data-ls="durationin:2000;delayin:1400;easingin:easeOutElastic;" href='service-single-2.html'>Read more</a>
+				</div>
+				<!-- third slide 
+				<div class="ls-slide" data-ls="slidedelay: 5000; transition2d:5;">
+					<img src="images/slide-4.jpg" class="ls-bg" alt="Slide background">
+					<h3 class="ls-l slide_typo" style="top:45%; left: 50%;" data-ls="offsetxin:0;durationin:2000;delayin:1000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotatexout:90;transformoriginout:50% bottom 0;">Marketing strategy</h3>
+					<p class="ls-l slide_typo_2" style="top:55%; left:50%;" data-ls="durationin:2000;delayin:1000;easingin:easeOutElastic;">
+						SEO - Email marketing - Strategy
+					</p>
+					<a class="ls-l button_intro_2" style="top:68%; left:50%;" data-ls="durationin:2000;delayin:1400;easingin:easeOutElastic;" href='service-single.html'>Explore</a>
+				</div>
+			</div>
+		</div> End layerslider -->
+		
+		
+		<div id="image">
+			<ul id="slippry-demo">
+			  <li>
+				<a href="#slide1"><img src="images/slide1-2.jpg"  alt=""></a>
+					<!-- <h3 class="ls-l slide_typo" style="top: 45%; left: 50%;" data-ls="offsetxin:0;durationin:2000;delayin:1000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotatexout:90;transformoriginout:50% bottom 0;">Boost your visibility</h3>
+					<p class="ls-l slide_typo_2" style="top:55%; left:50%;" data-ls="durationin:2000;delayin:1000;easingin:easeOutElastic;">
+						SEO - Email marketing - Strategy
+					</p>
+					<a class="ls-l button_intro_2" style="top:68%; left:50%;white-space: nowrap;" data-ls="durationin:2000;delayin:1400;easingin:easeOutElastic;" href='service-single.html'>Read more</a> -->
+				
+			  </li>
+			  <li>
+				<a href="#slide2"><img src="images/slide-4.jpg"  alt=""></a>
+			  </li>
+			  <li>
+				<a href="#slide3"><img src="images/slide3-2.jpg" alt=""></a>
+			  </li>
+			</ul>
+		<!-- div below closes the slideshow div -->
+		</div> 
+		
+		<!-- code needed for hero picture/slideshow -->
+		<script>
+			$(function() {
+				var demo1 = $("#slippry-demo").slippry({
+					// transition: 'fade',
+					// useCSS: true,
+					// speed: 1000,
+					// pause: 3000,
+					// auto: true,
+					// preload: 'visible',
+					// autoHover: false
+				});
+
+				$('.stop').click(function () {
+					demo1.stopAuto();
+				});
+
+				$('.start').click(function () {
+					demo1.startAuto();
+				});
+
+				$('.prev').click(function () {
+					demo1.goToPrevSlide();
+					return false;
+				});
+				$('.next').click(function () {
+					demo1.goToNextSlide();
+					return false;
+				});
+				$('.reset').click(function () {
+					demo1.destroySlider();
+					return false;
+				});
+				$('.reload').click(function () {
+					demo1.reloadSlider();
+					return false;
+				});
+				$('.init').click(function () {
+					demo1 = $("#slippry-demo").slippry();
+					return false;
+				});
+			});
+		</script>
+		
+		<div class="content1">
+			<div class="container">
+			<br>
+			<br>
+			<hr>
+			<br>
+			<br>
+			<h1>Learn Market Strategy</h1> <h2>Discover the essentials and basics</h2>
+			<p class="first-paragraph">Here, we will cover some of the most quintessential topics in marketing and market strategy. Feel free to explore and check out any additional resources that you may find helpful. </p>
+			
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="topic-box">
+						<a href="marketing-mix.html" title="Marketing Mix"><i class="icon-info"></i><img src="images/i-icon.png" style="padding-right: 15px;"></a>
+						<img src="images/marketing-mix-icon.png" alt="marketing mix">
+						<h3>Marketing Mix</h3>
+						<p>The crucial decisions that one must take to effectively market their product. </p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="topic-box">
+						<a href="marketing-audits.html" title="Marketing Audits"><i class="icon-info"></i><img src="images/i-icon.png" style="padding-right: 15px;"></a>
+						<img src="images/marketing-audits-icon.png" alt="marketing audits">
+						<h3>Marketing Audits</h3>
+						<p>A regularly scheduled review of the cost and effectiveness of a marketing plan.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="topic-box">
+						<a href="porters-five-forces.html" title="Porter's Five Forces"><i class="icon-info"></i><img src="images/i-icon.png" style="padding-right: 15px;"></a>
+						<img src="images/porters-five-forces-icon.png" alt="porter's five forces">
+						<h3>Porter's Five Forces</h3>
+						<p>A framework created by Michael Porter that analyses an industry as being influenced by five forces. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="topic-box">
+						<a href="marketing-and-corporate-objectives.html" title="Marketing & Corporate Objectives"><i class="icon-info"></i><img src="images/i-icon.png" style="padding-right: 15px;"></a>
+						<img src="images/marketing-and-corporate-objectives-icon.png" alt="marketing & corporate objectives">
+						<h3>Marketing & Corporate Objectives</h3>
+						<p>The goals/long-term plan founded to achieve marketing objectives. </p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="topic-box">
+						<a href="market-research.html" title="Market Research"><i class="icon-info"></i><img src="images/i-icon.png" style="padding-right: 15px;"></a>
+						<img src="images/market-research-icon.png" alt="market research">
+						<h3>Market Research</h3>
+						<p>The process used for determining data about customers, competitors, and the market.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="topic-box">
+						<a href="sales-forecasting.html" title="Sales Forecasting"><i class="icon-info"></i><img src="images/i-icon.png" style="padding-right: 15px;"></a>
+						<img src="images/sales-forecasting-icon.png" alt="sales forecasting">
+						<h3>Sales Forecasting</h3>
+						<p>How market managers are able to predict future sales levels and sales trends.</p>
+					</div>
+				</div>
+			</div>
+			</div>
+			<p class="center-text"><a href="about.html" class="home-button-1 home">Learn More</a> <a href="market-seg-con-profile.html" class="outline-button-1">View All</a></p>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+		
+		<div class="ps-content" style="background: url(images/slide1-dark.jpg) center center no-repeat fixed; width: 100%; background-size: cover; color: #fff; min-height: 500px;">
+			<div class="parallax container">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<hr>
+				<br>
+				<h1 class="ps-title">What is MarketStrats?</h1>
+				<p class="ps-text">MarketStrats is a website resource tool for all students that teaches some of the most fundamental aspects of marketing in the business world. Whether you're studying for an Intro to Business test or simply reviewing for fun, we hope you enjoy learning here!</p>
+				<p class="center-text"><a href="about.html" class="home-button-1 home">Learn More</a></p>
+			</div>
+		</div>
+		
+		<!--
+		<div class="content2">
+			<br>
+			<br>
+			<br>
+			<hr class="cs-hr">
+			<h2 class="casestudies-title">Chapter Case Studies</h2>
+			<!-- <h3>Curabitur quam etsum lacus etsumis</h3> 
+			<div class="owl-carousel owl-theme case_studies add_bottom_30">
+				<!-- carousel owl-theme cs-block place bottom 
+				<div>
+					<a href="example1.html" title="Case Study 1">
+						<figure><img src="images/case-study-thumbnail.jpg" alt="case study thumbnail"></figure>
+						<h4>Effects of Marketing Mix</h4>
+						<p>Marketing Mix</p>
+					</a>
+				</div>
+				<div>
+					<a href="example2.html" title="Case Study 2">
+						<figure><img src="images/case-study-thumbnail.jpg" alt="case study thumbnail"></figure>
+						<h4>Porter's Five Forces Analysis</h4>
+						<p>Analysis</p>
+					</a>
+				</div>
+				<div>
+					<a href="example3.html" title="Case Study 3">
+						<figure><img src="images/case-study-thumbnail.jpg" alt="case study thumbnail"></figure>
+						<h4>How to Forecast</h4>
+						<p>Sales</p>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+		-->
+		
+		<!-- Footer starts here -->
+		<footer>
+			<div class="container content3" id="no-show-mobile" media="screen and (min-width:480px)">
+				<div class="row">
+					<div class="medium-column small-column">
+						<a href="index.html"><img src="images/MS-MarketStrats-Logo-footer.png" width="195" height="45" alt="MarketStrats" data-retina="true" id="footer-logo" style="visibility: visible;"></a>
+						<p>Advance your knowledge of marketing using this entirely coded resource website! This is a great place to study for either your next Intro to Business exam or for your up and coming entrepreneurial career.</p>
+					</div>
+					<div class="medium-column2 medium-column-offset small-column2">
+						<h3>Discover</h3>
+						<ul>
+							<li><a href="credits.html">Credits</a></li>
+							<li><a href="#">DECA Club</a></li>
+							<li><a href="https://www.natickfbla.wordpress.com" target="_blank">Natick FBLA</a></li>
+							<li><a href="https://www.natickhighwebdesign.com" target="_blank">NHS Web Design</a></li>
+							<li><a href="https://www.mrscullen.com" target="_blank">Mrs. Cullen</a></li>
+						</ul>
+					</div>
+					<div class="medium-column small-column2" id="personal-data-background">
+						<h3>Creator</h3>
+						<ul id="creator-details">
+							<li id="class">Advanced Web Design I - Fall 2018</li>
+							<li id="team">Natick High Web Design</li>
+							<li id="name">Natanel Pinkhasov</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="footer-mobile" style="display:;" id="no-show-desktop" media="screen and (max-width:480px)">
+			<div class="container content3">
+			
+				
+				<button class="collapsible">MarketStrats</button>
+				<div class="content">
+				  <p>Advance your knowledge of marketing using this entirely coded resource website! This is a great place to study for either your next Intro to Business exam or for your up and coming entrepreneurial career.</p>
+				</div>
+				
+				<button class="collapsible">Discover</button>
+				<div class="content">
+			  	<div class="links-ef">
+				  <ul>
+					<li><a href="credits.html">Credits</a></li>
+					<li><a href="#">DECA Club</a></li>
+					<li><a href="https://www.natickfbla.wordpress.com" target="_blank">Natick FBLA</a></li>
+					<li><a href="https://www.natickhighwebdesign.com" target="_blank">NHS Web Design</a></li>
+					<li><a href="https://www.mrscullen.com" target="_blank">Mrs. Cullen</a></li>
+				  </ul>
+				</div>
+				</div>
+				
+				<button class="collapsible">Creator</button>
+				<div class="content">
+				  <ul class="creator-details">
+					<li id="class">Advanced Web Design I - Fall 2018</li>
+					<li id="team">Natick High Web Design</li>
+					<li id="name">Natanel Pinkhasov</li>
+				  </ul>
+				</div>
+				
+				<script>
+					var coll = document.getElementsByClassName("collapsible");
+					var i;
+
+					for (i = 0; i < coll.length; i++) {
+					  coll[i].addEventListener("click", function() {
+						this.classList.toggle("active");
+						var content = this.nextElementSibling;
+						if (content.style.maxHeight){
+						  content.style.maxHeight = null;
+						} else {
+						  content.style.maxHeight = content.scrollHeight + "px";
+						} 
+					  });
+					}
+				</script>
+				</div>
+			</div>
+			
+			
+			
+			<div id="cr-footer">
+				<div class="container">
+					<p>© MarketStrats | 2019 - All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer has ended -->
+		
+		
+	 <!-- 
+	 <div class="pre-loader"></div> 
+	 <header>
+	 	<nav class="navbar navbar-default">
+	 		<div class="container-div">
+	 			
+	 			<div class="navbar-header-wp">
+	 				<div class="navbar header">
+	 					<div id="logo-index">
+	 						<h1><a href="index.html" title="MarketStrat">MarketStrat</a></h1>
+	 					</div>
+	 				</div>
+	 			</div>
+	 			
+	 			<div class="collapse navbar-collapse navbar-right" id="navbar">
+	 				
+	 				<ul class="nav navbar-nav">
+	 					<li><a href="index.html">Home</a></li>
+	 					
+						<div class="dropdown">
+						  <button class="dropbtn">Dropdown</button>
+						  <div class="dropdown-content">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a>
+							<a href="#">Link 3</a>
+						  </div>
+						</div> -->
+						
+						
+	 					<!-- <div class="dropdown">
+	 						<li class="dropdown">
+								<a href="#0" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Marketing Basics</span></a>
+								<ul class="dropdown-menu">
+									<li><a href="marketing-mix.html">Marketing Mix</a></li>
+									<li><a href="marketing-audits.html">Marketing Audits</a></li>
+									<li><a href="porters-five-forces.html">Porter's Five Forces</a></li>
+									<li><a href="marketing-corporate-objectives.html">Marketing & Corporate Objectives</a></li>
+									<li><a href="market-research.html">Market Research</a></li>
+									<li><a href="market-seg-con-profile.html">Market Segmentation & Consumer Profile</a></li>
+									<li><a href="sales-forecasting.html">Sales Forecasting</a></li>
+								</ul>
+							</li>
+						</div> -->
+	 						<!-- <button class="drop-button">Marketing Basics</button>
+	 						<div class="dropdown-content bar-block card-4">
+	 							<li><a href="marketing-mix.html">Marketing Mix</a></li>
+	 							<li><a href="marketing-audits.html">Marketing Audits</a></li>
+	 							<li><a href="porters-five-forces.html">Porter's Five Forces</a></li>
+	 							<li><a href="marketing-corporate-objectives.html">Marketing & Corporate Objectives</a></li>
+	 							<li><a href="market-research.html">Market Research</a></li>
+	 							<li><a href="market-seg-con-profile.html">Market Segmentation & Consumer Profile</a></li>
+	 							<li><a href="sales-forecasting.html">Sales Forecasting</a></li>
+	 						</div> -->
+	 					
+	 					<!-- <div class="dropdown">
+	 						<li class="dropdown">
+								<a href="#0" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Learn More</span></a>
+								<ul class="dropdown-menu">
+									<div class="dropdown">
+										<li class="dropdown">
+											<a href="#0" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Case Studies</span></a>
+											<ul class="dropdown-menu">
+												<li><a href="example1.html">Example 1</a></li>
+												<li><a href="example2.html">Example 1</a></li>
+												<li><a href="example3.html">Example 1</a></li>
+											</ul>
+										</li>
+									</div>
+									<li><a href="market-research.html">Market Research</a></li>
+									<li><a href="market-seg-con-profile.html">Market Segmentation & Consumer Profile</a></li>
+									<li><a href="deca-club.html">DECA Club</a></li>
+								</ul>
+							</li>
+						</div>
+	 					<li><a href="about.html">About</a></li>
+	 				</ul>
+	 				
+	 				
+	 				
+	 			</div>
+	 		</div>
+	 	</nav>
+	 </header> -->
+	 
+	
+	
+</body>
+</html>
